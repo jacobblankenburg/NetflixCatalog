@@ -8,18 +8,23 @@ namespace NetflixCatalog
 {
     public class Title
     {
-        public string name;
-        public int? rating;
-        public Genres genre;
-
+        public string Name;
+        public int? Rating;
+        public ProgramGenres programGenres;
 
         public Title()
         {
-            this.name = null;
-            this.rating = null;
-            this.genre = null;
+            this.Name = null;
+            this.Rating = null;
+            
+            
         }
-       // public 
+       public Title(string name ,int rating, string genres)
+        {
+            this.Name = name;
+            this.Rating = rating;
+
+        }
 
     }
 }

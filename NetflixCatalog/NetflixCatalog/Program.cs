@@ -10,6 +10,11 @@ namespace NetflixCatalog
     {
         static void Main(string[] args)
         {
+            Display d  =new  Display();
+            d.Consolewrite();
+            Console.ReadKey();
+
+
         }
     }
 }

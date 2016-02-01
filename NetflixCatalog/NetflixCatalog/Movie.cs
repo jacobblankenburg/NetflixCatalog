@@ -8,23 +8,18 @@ namespace NetflixCatalog
 {
     public class Movie : Title
     {
-        public Movie(string Name, int Rating, Genres Genre)
+        public int Duration;
+        
+        public Movie(string name, int rating, int duration , ProgramGenres genres)
         {
-            name = Name;
-            rating = Rating;
-            genre = Genre;
-
-        }
-
-          public void MoviesToWatch()
+            this.Name = name;
+            this.Rating = rating;
+            this.Duration = duration;
+            ProgramGenres programGenres = genres;
+         }
+        public override string ToString()
         {
-            this.name = "Joe Dirt";
-            this.name = "Cars";
-            this.name = "StepBrothers";
-            this.name = "Ted";
-            this.name = "Star Wars";
-
+            return (Name + " has a rating of : " + Rating.ToString() + " and has a duration of : " + Duration.ToString() + " and the genre is : " + programGenres.ToString());
         }
-
     }
 }

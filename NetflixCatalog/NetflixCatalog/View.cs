@@ -8,6 +8,12 @@ namespace NetflixCatalog
 {
     public class View
     {
-        
+        public void Display(List<ProgramGenres> GenreofProgram)
+        {
+            foreach (ProgramGenres programgenres in GenreofProgram)
+            {
+                Console.WriteLine(programgenres);
+            }
+        }
     }
 }
