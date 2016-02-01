@@ -15,11 +15,11 @@ namespace NetflixCatalog
             this.Name = name;
             this.Rating = rating;
             this.Duration = duration;
-            ProgramGenres programGenres = genres;
+            ProgramGenres _genre = genres;
          }
         public override string ToString()
         {
-            return (Name + " has a rating of : " + Rating.ToString() + " and has a duration of : " + Duration.ToString() + " and the genre is : " + programGenres.ToString());
+            return (Name + " has a rating of : " + Rating.ToString() + " and has a duration of : " + Duration.ToString() + " and the genre is : " + _genre.ToString());
         }
     }
 }

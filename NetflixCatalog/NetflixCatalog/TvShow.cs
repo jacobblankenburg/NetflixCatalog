@@ -36,7 +36,7 @@ namespace NetflixCatalog
         }
         public override string ToString()
         {
-            return (Name + " has a rating of : " + Rating.ToString() + " has a genre of : " + programGenres.ToString());
+            return (Name + " has a rating of : " + Rating.ToString() + " has a genre of : " + _genre.ToString());
         }
     }
 

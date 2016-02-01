@@ -16,9 +16,11 @@ namespace NetflixCatalog
         Romatic = 4,
         RomanticComedy = 5,
         ActionComedy = 6
+    
     }
     public class Genres : IEnumerable
     {
+        public ProgramGenres _genre;
         public List<ProgramGenres> GenreofProgram;
 
         public Genres()

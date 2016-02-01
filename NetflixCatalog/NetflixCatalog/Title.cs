@@ -10,7 +10,7 @@ namespace NetflixCatalog
     {
         public string Name;
         public int? Rating;
-        public ProgramGenres programGenres;
+        public ProgramGenres _genre;
 
         public Title()
         {
