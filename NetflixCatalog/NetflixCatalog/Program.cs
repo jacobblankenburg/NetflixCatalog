@@ -10,8 +10,8 @@ namespace NetflixCatalog
     {
         static void Main(string[] args)
         {
-            Display d  =new  Display();
-            d.Consolewrite();
+            Display display  =new  Display();
+            display.Consolewrite();
             Console.ReadKey();
 
 

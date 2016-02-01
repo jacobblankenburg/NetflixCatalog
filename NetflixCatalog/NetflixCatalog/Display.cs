@@ -11,7 +11,7 @@ namespace NetflixCatalog
         Movie movie = new Movie("StarWars", 5, 156, ProgramGenres.Action);
         Movie movie2 = new Movie("Joe Dirt", 3, 134, ProgramGenres.Comedy);
         Movie movie3 = new Movie("Cars", 5, 143, ProgramGenres.Family);
-        Movie movie4 = new Movie("DieHard", 4, 165, ProgramGenres.ActionComedy);
+        Movie movie4 = new Movie("The Other Guys", 4, 165, ProgramGenres.ActionComedy);
 
         
 
